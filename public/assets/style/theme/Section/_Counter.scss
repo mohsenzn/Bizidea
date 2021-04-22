@@ -1,0 +1,33 @@
+.single-counter {
+    margin-bottom: 50px;
+  }
+  
+  .single-counter h2 {
+    font-size: 44px;
+    margin-bottom: 10px;
+    margin-top: -6px;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .single-counter h2 {
+      font-size: 40px;
+    }
+  }
+  
+  @media only screen and (max-width: 379px) {
+    .single-counter h2 {
+      font-size: 30px;
+    }
+  }
+  
+  .single-counter p {
+    line-height: 1;
+    font-size: 26px;
+    font-weight: 500;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .single-counter p {
+      font-size: 20px;
+    }
+  }

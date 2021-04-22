@@ -1,0 +1,126 @@
+/*********************************************************************************
+
+	Note: This is style css.
+
+**********************************************************************************/
+
+/**************************************************************
+	
+	STYLESHEET INDEXING
+	|
+	|
+	|___ Default Styles
+	|	|
+	|	|___ variables
+	|	|___ mixins
+	|	|___ reset
+	|	|___ typography
+	|	|___ extend
+	|	|___ animations
+	|	|___ shortcode
+	|	|___ spacing
+	|
+	|
+	|___Header Styles
+	|	|___ header
+	|	|___ mainmenu
+	|
+	|
+	|___Inner Styles
+	|	|___ breadcrump 
+	|	|___ section-title 
+	|	|___ button
+	|	|___ pagination
+	|	|___ socialicon
+	|	|___ footer
+	|
+	|___Elements Styles
+	|	|___ portfolio 
+	|	|___ service 
+	|	|___ slider 
+	|	|___ counterup 
+	|	|___ testimonial 
+	|	|___ brand 
+	|	|___ team 
+	|	|___ callto-action 
+	|	|___ tab 
+	|	|___ accordion 
+	|	|___ list 
+	|	|___ contact 
+	|
+	|___BLog Styles
+	|	|___ blog 
+	|	|___ blog-details 
+	|
+	|___Template Styles
+	|	|___ about 
+	|	|___ portfolio-details
+	|	|___ service-details
+	|	|___ preview
+	|
+	|
+	|___ END STYLESHEET INDEXING
+
+***************************************************************/
+
+
+/**************************************
+    Default Styles
+***************************************/
+
+
+@import './default/rest';
+
+@import './default/animation';
+@import './default/sectionTitle.scss';
+@import './default/shortcut';
+@import './default/PageTitle';
+@import './elements/Widget';
+@import './elements/backtoTop';
+@import './elements/Testimonial';
+@import './default/erorr';
+
+
+
+
+/**************************************
+    Header Styles
+***************************************/
+
+@import './theme/Navbar/Header.scss';
+@import './theme/Banner.scss';
+@import './theme/Footer/Footer';
+@import './theme/Blogs/Blog';
+@import './theme/Contact/Contact';
+
+
+/**************************************
+    Inner Styles
+***************************************/
+
+
+
+/**************************************
+    Elements Styles
+***************************************/
+@import './theme/Section/Feature';
+@import './elements/Button';
+@import './elements/preloader';
+@import './theme//Section/About';
+@import './theme//Section/Work';
+@import './theme/Section/Services';
+@import './theme/Section/Counter';
+@import './theme/Section/Price';
+@import './theme/Section/Projects';
+@import './theme/Section/Team';
+@import './theme/Section/Brand';
+
+/**************************************
+    Blog Styles
+
+
+
+
+/**************************************
+    Template Styles
+***************************************/

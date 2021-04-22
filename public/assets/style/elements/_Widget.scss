@@ -1,0 +1,137 @@
+.widget:not(:last-child) {
+    margin-bottom: 60px;
+  }
+  
+  .widget ul:not(.social_icon_list) {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .widget ul:not(.social_icon_list) li:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  
+  .widget ul:not(.social_icon_list) li a {
+    position: relative;
+  }
+  
+  .widget ul:not(.social_icon_list) li a:before {
+   
+    margin-right: 10px;
+  }
+  
+  .widget > ul {
+    margin-top: -8px;
+  }
+  
+  .widget .widget-logo,
+  .widget .widget-title {
+    margin-bottom: 40px;
+  }
+  
+  .widget .widget-title * {
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  
+  .widget.widget_contact_info .single-info:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  
+  .widget.widget_contact_info .single-info p {
+    line-height: 1.5;
+  }
+  
+  .widget.widget_contact_info .single-info p a {
+    display: block;
+  }
+  
+  .widget.widget_contact_info .single-info p a:not(:last-child):after {
+    content: ',';
+  }
+  
+  .widget.widget_recent_entries .single-post:not(:last-child), .widget.widget_related_post .single-post:not(:last-child) {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .widget.widget_recent_entries .single-post .post-image, .widget.widget_related_post .single-post .post-image {
+    margin-right: 20px;
+  }
+  
+  .widget.widget_recent_entries .single-post .post-content h5, .widget.widget_related_post .single-post .post-content h5 {
+    font-weight: 500;
+    line-height: 1.5;
+  }
+  
+  .widget.widget_newsletter .newsletter-content p {
+    margin-top: -8px;
+    margin-bottom: 25PX;
+  }
+  
+  .widget.widget_flicker ul {
+    margin-bottom: -15px;
+    margin-right: -22px;
+    max-width: 100%;
+  }
+  
+  .widget.widget_flicker ul li {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.33%;
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    width: 100%;
+  }
+  
+  .widget.widget_flicker ul li a {
+    padding: 0;
+  }
+  
+  .widget.widget_flicker ul li a:before {
+    display: none;
+  }
+  
+  .widget.widget_related_post .single-post:not(:last-child) {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .widget.widget_tag_cloud .tagcloud {
+    margin-right: -6px;
+    margin-bottom: -15px;
+  }
+  
+  .widget.widget_tag_cloud .tagcloud a {
+    display: inline-block;
+    padding: 8px 5px;
+    border: 1px solid #e0e0e0;
+    line-height: 1;
+    margin-right: 2px;
+    margin-bottom: 8px;
+  }
+  
+  .widget.widget_search .input-group {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .widget.widget_search .input-group .theme-input-style {
+    padding-right: 40px;
+  }
+  
+  .widget.widget_search .input-group .submit-btn {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 0;
+  }
+  
+  .widget.widget_search .input-group .submit-btn:hover svg path {
+    fill: #fb4275;
+  }
+  

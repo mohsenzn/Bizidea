@@ -1,0 +1,54 @@
+.bg-404 {
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .not-found-content p {
+    font-size: 26px;
+    max-width: 680px;
+    margin: 60px auto;
+  }
+  
+  .not-found-form form input,
+  .coming-soon-form form input {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 70%;
+    flex: 0 0 70%;
+    max-width: calc(70% - 40px);
+    margin-right: 10px;
+  }
+  
+  @media only screen and (max-width: 379px) {
+    .not-found-form form input,
+    .coming-soon-form form input {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+      margin-bottom: 20px;
+      margin-right: 0 !important;
+    }
+  }
+  
+  .not-found-form form button,
+  .coming-soon-form form button {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  
+  .not-found-form form button span,
+  .coming-soon-form form button span {
+    padding: initial !important;
+  }
+  
+  @media only screen and (max-width: 379px) {
+    .not-found-form form button,
+    .coming-soon-form form button {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }

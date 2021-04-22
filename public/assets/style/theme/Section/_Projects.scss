@@ -1,0 +1,123 @@
+.project-nav li {
+    line-height: 1;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 15px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  /* Single Project */
+  .single-project-item .image img {
+    width: 100%;
+  }
+  
+  .single-project-item .project-body {
+    padding: 40px 30px;
+  }
+  
+  .single-project-item .project-body h3 {
+    margin-bottom: 15px;
+    line-height: 1.2;
+  }
+  
+  @media only screen and (max-width: 379px) {
+    .single-project-item .project-body h3 {
+      font-size: 22px;
+    }
+  }
+  
+  .single-project-item .project-body .project-meta {
+    font-weight: 500;
+    line-height: 1;
+    font-size: 16px;
+  }
+  
+  .single-project-item .project-body .project-meta span {
+    margin-left: 5px;
+  }
+  
+  .single-project-item .project-body p {
+    font-size: 18px;
+    line-height: 1.67;
+  }
+  
+  /* Project Details */
+  .project-details .project-image img {
+    width: 100%;
+  }
+  
+  .project-details .project-meta {
+    margin: 50px 0;
+  }
+  
+  .project-details .project-meta li {
+    font-weight: 500;
+  }
+  
+  .project-details .project-meta li:not(:last-child) {
+    margin-right: 50px;
+  }
+  
+  .project-details .project-meta li a:not(:last-child):after {
+    content: ',';
+  }
+  
+  .project-details .project-details-content h3 {
+    margin-bottom: 30px;
+    font-weight: 500;
+  }
+  
+  .project-details .project-details-content p {
+    margin-bottom: 50px;
+    font-size: 18px;
+  }
+  
+  .project-details .project-details-content .list-check li {
+    font-style: normal;
+  }
+  
+  /* Project Pagination */
+  .post-pagination {
+    padding: 30px;
+    border: 1px solid #e0e0e0;
+  }
+  
+  .post-pagination .single-post-pagination {
+    max-width: 350px;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .post-pagination .single-post-pagination {
+      max-width: 100%;
+    }
+  }
+  
+  .post-pagination .single-post-pagination .pagination-image {
+    margin-right: 20px;
+  }
+  
+  .post-pagination .single-post-pagination .media-body a svg {
+    margin-right: 10px;
+  }
+  
+  .post-pagination .single-post-pagination .media-body a:hover path {
+    fill: #fb4275;
+  }
+  
+  .post-pagination .single-post-pagination .media-body h6 {
+    margin-top: 5px;
+    font-weight: 400;
+    line-height: 1.4;
+  }
+  
+  .post-pagination .single-post-pagination.next .pagination-image {
+    margin-right: 0;
+    margin-left: 20px;
+  }
+  
+  .post-pagination .single-post-pagination.next .media-body a svg {
+    margin-left: 10px;
+    margin-right: 0;
+  }
+  

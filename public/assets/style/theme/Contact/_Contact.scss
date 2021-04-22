@@ -1,0 +1,43 @@
+.contact-info .single-contact-info:not(:last-child) {
+    margin-bottom: 50px;
+  }
+  
+  @media only screen and (max-width: 991px) {
+    .contact-info .single-contact-info:last-child {
+      margin-bottom: 50px;
+    }
+  }
+  
+  .contact-info .single-contact-info .image {
+    margin-right: 30px;
+  }
+  
+  .contact-info .single-contact-info h4 {
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  
+  .contact-info .single-contact-info p a {
+    display: block;
+  }
+  
+  .contact-info .single-contact-info p a:not(:last-child):after {
+    content: ',';
+  }
+  
+  .contact-info h3,
+  .contact-form-wrapper h3 {
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  
+  .contact-info > p,
+  .contact-form-wrapper > p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .contact-form .theme-input-style {
+    margin-bottom: 30px;
+  }
+  

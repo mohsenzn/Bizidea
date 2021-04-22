@@ -1,0 +1,94 @@
+.footer .widget {
+    margin-bottom: 30px;
+  }
+  
+  .footer .widget:last-child {
+    margin-bottom: 60px;
+  }
+  
+  .footer .widget ul:not(.social_icon_list) li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  
+  .footer .footer-bottom {
+    padding: 32px 0 36px;
+  }
+  
+  /* ************************
+     03.4: Banner
+     ********************* */
+  .banner {
+    padding-top: 200px;
+    min-height: 890px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .banner .banner-content h1 {
+    font-size: 64px;
+    line-height: 1.1;
+  }
+  
+  @media only screen and (max-width: 991px) {
+    .banner .banner-content h1 br {
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .banner .banner-content h1 {
+      font-size: 56px;
+    }
+  }
+  
+  @media only screen and (max-width: 379px) {
+    .banner .banner-content h1 {
+      font-size: 40px;
+    }
+  }
+  
+  .banner .banner-content p {
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 1.67;
+  }
+  
+  .banner .banner-content .banner-btn {
+    margin-top: 30px;
+  }
+  
+  .banner .banner-slider .owl-dots {
+    position: absolute;
+    right: 15px;
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .banner .banner-slider .owl-dots {
+      right: 100px;
+    }
+  }
+  
+  .banner .banner-slider .owl-dots .owl-dot {
+    display: block;
+    margin: 7px 0;
+  }
+  
+  .banner .banner-slider .banner-image img {
+    width: auto !important;
+  }
+  
+  @media only screen and (max-width: 991px) {
+    .banner .banner-slider .banner-image img {
+      margin: 0 auto;
+    }
+  }
+  
+  .banner .wave-shape {
+    position: absolute;
+    left: 0;
+    width: calc(100% + 1px);
+    bottom: 0;
+  }
+  .footer-bg {
+    background-position: center;
+  }

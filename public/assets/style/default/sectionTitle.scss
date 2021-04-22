@@ -1,0 +1,55 @@
+.section-title {
+    margin-bottom: 62px;
+  }
+  
+  .section-title h3 {
+    font-weight: 500;
+  }
+  
+  .section-title h2 {
+    font-size: 44px;
+    line-height: 1.23;
+  }
+  
+  .section-title p {
+    font-size: 18px;
+    line-height: 1.67;
+    max-width: 890px;
+    margin-top: 38px;
+  }
+  
+  .section-title.text-center p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .section-title.text-right p {
+    margin-left: auto !important;
+  }
+  
+  @media only screen and (max-width: 991px) {
+    .section-title br {
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .section-title {
+      margin-bottom: 42px;
+    }
+    .section-title h2 {
+      font-size: 40px;
+    }
+    .section-title p {
+      margin-top: 28px;
+    }
+  }
+  
+  @media only screen and (max-width: 379px) {
+    .section-title h3 {
+      font-size: 20px;
+    }
+    .section-title h2 {
+      font-size: 30px;
+    }
+  }

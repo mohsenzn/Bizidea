@@ -1,0 +1,35 @@
+.single-feature, .single-process {
+    padding: 60px 30px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+  }
+  
+  .single-feature .content h3, .single-process .content h3 {
+    margin: 30px 0 17px;
+  }
+  
+  @media only screen and (max-width: 379px) {
+    .single-feature .content h3, .single-process .content h3 {
+      font-size: 22px;
+    }
+  }
+  
+  .feature-style-two {
+    position: relative;
+    z-index: 10;
+    margin-top: -170px;
+  }
+  
+  .feature-style-two .single-feature-wrapper:nth-child(odd) {
+    margin-top: 40px;
+  }
+  
+  @media only screen and (max-width: 991px) {
+    .feature-style-two .single-feature-wrapper:nth-child(odd) {
+      margin-top: 0;
+    }
+  }
+
+  .p-1{
+    padding: 1rem !important;
+  }

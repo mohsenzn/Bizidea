@@ -1,0 +1,65 @@
+
+.pricing-navtab .nav-tabs,
+.pricing-navtab .nav-tabs .nav-link {
+  border: none;
+}
+
+.pricing-navtab .nav-tabs {
+  margin-bottom: 20px;
+}
+
+.pricing-navtab .nav-tabs .nav-link {
+  margin-bottom: 30px;
+  padding: 50px;
+  overflow: hidden;
+}
+
+.pricing-navtab .nav-tabs .nav-link.active, .pricing-navtab .nav-tabs .nav-link:hover {
+  -webkit-box-shadow: 0 4px 40px rgba(251, 66, 117, 0.4);
+  box-shadow: 0 4px 40px rgba(251, 66, 117, 0.4);
+}
+
+.pricing-navtab .nav-tabs .nav-link h4 {
+  font-weight: 500;
+}
+
+.pricing-navtab .nav-tabs .nav-link h2 {
+  font-size: 36px;
+}
+
+@media only screen and (max-width: 379px) {
+  .pricing-navtab .nav-tabs .nav-link h2 {
+    font-size: 30px;
+  }
+}
+
+.pricing-navtab .tab-content .tab-pane {
+  padding: 60px 40px;
+  background-color: #ffffff;
+}
+
+.pricing-navtab .tab-content .tab-pane .tab-pane-text .list-check {
+  margin-bottom: 0;
+}
+
+.pricing-navtab .tab-content .tab-pane .tab-pane-text h3 {
+  margin-bottom: 40px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 379px) {
+  .pricing-navtab .tab-content .tab-pane .tab-pane-text h3 {
+    font-size: 22px;
+  }
+}
+
+.pricing-navtab .tab-content .tab-pane .tab-pane-text p {
+  margin-bottom: 30px;
+}
+
+.pricing-navtab .tab-content .tab-pane .tab-pane-text .btn {
+  margin-top: 30px;
+}
+.po {
+  cursor: pointer !important;
+}
